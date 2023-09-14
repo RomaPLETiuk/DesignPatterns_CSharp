@@ -1,0 +1,14 @@
+E:\Моє\моя практика\repos_C\Strategy\Strategy\bin\Debug\net6.0\Strategy.exe
+E:\Моє\моя практика\repos_C\Strategy\Strategy\bin\Debug\net6.0\Strategy.deps.json
+E:\Моє\моя практика\repos_C\Strategy\Strategy\bin\Debug\net6.0\Strategy.runtimeconfig.json
+E:\Моє\моя практика\repos_C\Strategy\Strategy\bin\Debug\net6.0\Strategy.dll
+E:\Моє\моя практика\repos_C\Strategy\Strategy\bin\Debug\net6.0\Strategy.pdb
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\Strategy.GeneratedMSBuildEditorConfig.editorconfig
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\Strategy.AssemblyInfoInputs.cache
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\Strategy.AssemblyInfo.cs
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\Strategy.csproj.CoreCompileInputs.cache
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\Strategy.dll
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\refint\Strategy.dll
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\Strategy.pdb
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\Strategy.genruntimeconfig.cache
+E:\Моє\моя практика\repos_C\Strategy\Strategy\obj\Debug\net6.0\ref\Strategy.dll
