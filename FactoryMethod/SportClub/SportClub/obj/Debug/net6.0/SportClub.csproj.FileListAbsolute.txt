@@ -1,0 +1,14 @@
+E:\Моє\моя практика\repos_C\SportClub\SportClub\bin\Debug\net6.0\SportClub.exe
+E:\Моє\моя практика\repos_C\SportClub\SportClub\bin\Debug\net6.0\SportClub.deps.json
+E:\Моє\моя практика\repos_C\SportClub\SportClub\bin\Debug\net6.0\SportClub.runtimeconfig.json
+E:\Моє\моя практика\repos_C\SportClub\SportClub\bin\Debug\net6.0\SportClub.dll
+E:\Моє\моя практика\repos_C\SportClub\SportClub\bin\Debug\net6.0\SportClub.pdb
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\SportClub.GeneratedMSBuildEditorConfig.editorconfig
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\SportClub.AssemblyInfoInputs.cache
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\SportClub.AssemblyInfo.cs
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\SportClub.csproj.CoreCompileInputs.cache
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\SportClub.dll
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\refint\SportClub.dll
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\SportClub.pdb
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\SportClub.genruntimeconfig.cache
+E:\Моє\моя практика\repos_C\SportClub\SportClub\obj\Debug\net6.0\ref\SportClub.dll
