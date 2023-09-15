@@ -1,4 +1,4 @@
-# DesignPatterns_CSharp
+# Design Patterns C#
 
 1 Перший патерн, який я розглянув - Стратегія Strategy
 
