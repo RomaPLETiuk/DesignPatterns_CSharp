@@ -1,0 +1,14 @@
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\bin\Debug\net6.0\Report(Bilder).exe
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\bin\Debug\net6.0\Report(Bilder).deps.json
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\bin\Debug\net6.0\Report(Bilder).runtimeconfig.json
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\bin\Debug\net6.0\Report(Bilder).dll
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\bin\Debug\net6.0\Report(Bilder).pdb
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\Report(Bilder).GeneratedMSBuildEditorConfig.editorconfig
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\Report(Bilder).AssemblyInfoInputs.cache
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\Report(Bilder).AssemblyInfo.cs
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\Report(Bilder).csproj.CoreCompileInputs.cache
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\Report(Bilder).dll
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\refint\Report(Bilder).dll
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\Report(Bilder).pdb
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\Report(Bilder).genruntimeconfig.cache
+E:\Моє\моя практика\repos_C\Report(Bilder)\Report(Bilder)\obj\Debug\net6.0\ref\Report(Bilder).dll
