@@ -4,20 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Report_Bilder_
-{
-    public class EmployeeReport
-    {
-        public string Head { get; set; }
-        public string Body { get; set; }
-        public string Foot { get; set; }
+namespace Report_Builder;
 
-        public override string ToString() =>
-            new StringBuilder()
-             .Append(Head)
-            .Append(Body)
-            .Append(Foot)
-            .ToString();
-        
-    }
+public class EmployeeReport
+{
+    public string Header { get; init; }
+    public string Body { get; init; }
+    public string Footer { get; init; }
+
+    public override string ToString() =>
+        $"{Header}\n{Body}\n{Footer}";
 }
+
