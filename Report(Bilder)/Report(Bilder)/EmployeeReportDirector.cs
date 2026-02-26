@@ -4,30 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Report_Bilder_
+namespace Report_Builder;
+
+public class EmployeeReportDirector
 {
-    public class EmployeeReportDirector
+    private readonly IEmployeeReportBuilder _builder;
+
+    public EmployeeReportDirector(IEmployeeReportBuilder builder)
     {
-        private readonly IEmployeeReportBilder _builder;
-        public EmployeeReportDirector(IEmployeeReportBilder builder)
-        {
-            _builder = builder;
-        }
+        _builder = builder;
+    }
 
-        public void Build()
-        {
-            _builder
-                .BildHead()
-                .BildBody()
-                .BildFoot();
+    public EmployeeReport BuildFullReport()
+    {
+        _builder.BuildHeader();
+        _builder.BuildBody();
+        _builder.BuildFooter();
 
-        }
-        //public void BuildWithoutFoot()
-        //{
-        //    _builder
-        //        .BildHead()
-        //        .BildBody();
-               
-        //}
+        return _builder.GetResult();
     }
 }
+
