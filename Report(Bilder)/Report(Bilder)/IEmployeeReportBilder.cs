@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Report_Bilder_
+namespace Report_Builder;
+
+public interface IEmployeeReportBuilder
 {
-    public interface IEmployeeReportBilder
-    {
-        IEmployeeReportBilder BildHead();
-        IEmployeeReportBilder BildBody();
-        IEmployeeReportBilder BildFoot();
-        EmployeeReport GetReport();
-    }
+    void BuildHeader();
+    void BuildBody();
+    void BuildFooter();
+    EmployeeReport GetResult();
 }
+
