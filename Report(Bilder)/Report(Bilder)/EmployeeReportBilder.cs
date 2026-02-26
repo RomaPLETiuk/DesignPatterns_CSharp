@@ -1,57 +1,42 @@
-﻿namespace Report_Bilder_
+namespace Report_Builder;
+
+public class EmployeeReportBuilder : IEmployeeReportBuilder
 {
-    public class EmployeeReportBilder : IEmployeeReportBilder
+    private readonly IEnumerable<Employee> _employees;
+    private EmployeeReport _report = new();
+
+    public EmployeeReportBuilder(IEnumerable<Employee> employees)
     {
-        private EmployeeReport _employeeReport;
-        private IEnumerable<Employee> _employees;
-
-        public EmployeeReportBilder(IEnumerable<Employee> employees)
-        {
-            _employees = employees;
-
-            _employeeReport = new();
-
-        }
-
-        public IEmployeeReportBilder BildHead()
-        {
-            _employeeReport.Head =
-                $"EMPLOYEES REPORT ON DATE: {DateTime.Now}" +
-                $"\n________________________________________________________________________";
-
-            return this;
-        }
-
-        public IEmployeeReportBilder BildBody()
-        {
-            _employeeReport.Body =
-             string.Join(Environment.NewLine,
-             _employees.Select(e =>
-             $"\nEmployee: {e.Name}\t\t Salary: {e.Salary}"));
-
-            return this;
-        }
-
-        public IEmployeeReportBilder BildFoot()
-        {
-            _employeeReport.Foot =
-                $"\n________________________________________________________________________";
-            _employeeReport.Foot +=
-                $"\n Total employees: {_employees.Count()}," +
-                $"\n Total salary: {_employees.Sum(e => e.Salary)}";
-
-
-            return this;
-
-        }
-
-        public EmployeeReport GetReport()
-        {
-            EmployeeReport employeeReport = _employeeReport;
-            _employeeReport = new();
-            return employeeReport;
-        }
-
-
+        _employees = employees;
     }
+
+    public void BuildHeader()
+    {
+        _report = _report with
+        {
+            Header = $"EMPLOYEE REPORT ({DateTime.Now:d})\n----------------------------"
+        };
+    }
+
+    public void BuildBody()
+    {
+        var body = string.Join(Environment.NewLine,
+            _employees.Select(e =>
+                $"Employee: {e.Name,-10} Salary: {e.Salary,6}"));
+
+        _report = _report with { Body = body };
+    }
+
+    public void BuildFooter()
+    {
+        _report = _report with
+        {
+            Footer =
+                $"----------------------------\n" +
+                $"Total employees: {_employees.Count()}\n" +
+                $"Total salary: {_employees.Sum(e => e.Salary)}"
+        };
+    }
+
+    public EmployeeReport GetResult() => _report;
 }
